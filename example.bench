@@ -1,0 +1,12 @@
+{ "type": "suite", "event": "started", "test_count": 0 }
+{ "type": "suite", "event": "ok", "passed": 0, "failed": 0, "ignored": 0, "measured": 0, "filtered_out": 0, "exec_time": 0.000101131 }
+{ "type": "suite", "event": "started", "test_count": 4 }
+{ "type": "test", "event": "started", "name": "life::test_life" }
+{ "type": "test", "name": "life::test_life", "event": "ignored" }
+{ "type": "test", "event": "started", "name": "life::bench::generations" }
+{ "type": "bench", "name": "life::bench::generations", "median": 54843310, "deviation": 10270625 }
+{ "type": "test", "event": "started", "name": "life::bench::par_bridge_generations" }
+{ "type": "bench", "name": "life::bench::par_bridge_generations", "median": 635475100, "deviation": 53431135 }
+{ "type": "test", "event": "started", "name": "life::bench::par_iter_generations" }
+{ "type": "bench", "name": "life::bench::par_iter_generations", "median": 20052562, "deviation": 2403659 }
+{ "type": "suite", "event": "ok", "passed": 0, "failed": 0, "ignored": 1, "measured": 3, "filtered_out": 121, "exec_time": 213.028280156 }
